@@ -7,37 +7,26 @@ class Node {
 
 class LinkedList {
   constructor () {
-    this.head = null;  
-    this.size = 0;
+    this.head = null;
   }
 
   add(number) {
     var node = new Node(number ,this.head)
-    let current;
     if(this.head === null){
       this.head = node
     } else {
-      current = this.head;
-      while(current.next) {
-        current = current.next;
+      this.next_node = this.head;
+      while(this.next_node) {
+        this.next_node = this.next_node.next;
       }
       current.next = node
     }
     
+
   }
 
   get(index) {
-    let current = this.head;
-    let indexCount = 0;
-    
-    while(current){
-      if (indexCount === index) {
-        return current.value
-      }
-      indexCount+=1;
-      current = current.next;
-  
-    }
+
   }
 }
 
