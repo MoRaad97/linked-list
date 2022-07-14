@@ -1,73 +1,39 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## How to solve this challenge?
 
-# Project Name
+1. Read the "Challenge description" below.
+2. Make changes to the [challenge.js](./challenge.js) file.
+3. Commit your changes.
+4. Wait for the result of the "GitHub Classroom Workflow" action. If it is green - congratulations, you solved this challenge! If not - try again!
+5. *You can watch an example of how to solve a challenge in the video linked in the theoretical lesson preceding this challenge.*
 
-> Description the project.
+## Challenge description
+
+### Lists  
+
+Create your own LinkedList  class for storing integers which should include two methods:  
+add(number) - Add a new Node to the end of the list with a value of number. Nothing needs to be returned. 
+get(index) - Return the value of the Node at position `index` in the List.   
+
+Example  
+
+```
+
+This is an example of a test case:  
+
+const list = new LinkedList()
+
+list.add(3)
+list.add(5)
+console.log(list.get(1))
+// => 5
+```
 
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+The 2 add operations create the list: [3, 5]. 
+The get operation, gets the number located at position 1. 
 
 
 
-## Authors
+### Troubleshooting
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+If you cannot see any auto-grading workflows on the [Actions](../../actions) page, learn how to fix it in [this repo](https://github.com/microverse-students/autograding-troubles-js/blob/main/README.md).
